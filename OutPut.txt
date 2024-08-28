@@ -1,1 +1,51 @@
+PS C:\Users\shravannunsavath\Desktop> python Main.py
+Columns in the dataset: Index(['amount', 'time', 'is_fraud'], dtype='object')
+Class distribution:      
+ is_fraud
+0    3
+1    2
+Name: count, dtype: int64
+Minority class size: 2   
+Random Forest Accuracy: 1.0
+Classification Report:
+              precision    recall  f1-score   support
 
+           0       1.00      1.00      1.00         1
+           1       1.00      1.00      1.00         1
+
+    accuracy                           1.00         2
+   macro avg       1.00      1.00      1.00         2
+weighted avg       1.00      1.00      1.00         2
+
+Confusion Matrix:
+[[1 0]
+ [0 1]]
+LOF Accuracy: 0.5
+LOF Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.50      1.00      0.67         1
+           1       0.00      0.00      0.00         1
+
+    accuracy                           0.50         2
+   macro avg       0.25      0.50      0.33         2
+weighted avg       0.25      0.50      0.33         2
+
+LOF Confusion Matrix:
+[[1 0]
+ [1 0]]
+Isolation Forest Accuracy: 0.5
+Isolation Forest Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.50      1.00      0.67         1
+           1       0.00      0.00      0.00         1
+
+    accuracy                           0.50         2
+   macro avg       0.25      0.50      0.33         2
+weighted avg       0.25      0.50      0.33         2
+
+Isolation Forest Confusion Matrix:
+[[1 0]
+ [1 0]]
+PS C:\Users\shravannunsavath\Desktop> 
